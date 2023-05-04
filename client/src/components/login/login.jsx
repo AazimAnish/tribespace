@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import "./login.scss";
-import firebase from "firebase/app";
-import "firebase/auth";
+//import firebase from "firebase/app";
+//import "firebase/auth";
 
 // Initialize Firebase with your project's configuration
-firebase.initializeApp({
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-});
+/*firebase.initializeApp({
+  apiKey: "AIzaSyDOjg9dvHNYeJqyNodvo7pFTZ4CdQTh8QA",
+  authDomain: "http://tribespace-a9629.firebaseapp.com",
+  projectId: "tribespace-a9629",
+});*/
 
 function LoginPage() {
   const [email, setEmail] = useState("");
@@ -24,10 +24,10 @@ function LoginPage() {
 
   const handleGoogleLogin = () => {
     // Create a new Google provider
-    const provider = new firebase.auth.GoogleAuthProvider();
+   //const provider = new firebase.auth.GoogleAuthProvider();
 
     // Sign in with Google
-    firebase.auth().signInWithPopup(provider)
+   /* firebase.auth().signInWithPopup(provider)
       .then((result) => {
         // Handle successful sign-in
         console.log("Google sign-in successful:", result);
@@ -35,7 +35,7 @@ function LoginPage() {
       .catch((error) => {
         // Handle errors
         console.error("Google sign-in error:", error);
-      });
+      });*/
   };
 
   return (
@@ -72,15 +72,13 @@ function LoginPage() {
         <br></br>
         {/* Google sign-in button */}
         <div className="google-btn">
-          
-          <div className="google-icon-wrapper">
-          <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
-          </div>
-          <button onClick={handleGoogleLogin}>
-          <p className="btn-text">
-          Sign in with Google
-            </p>
-        </button>
+            <button onClick={handleGoogleLogin}>
+      <div className="google-icon-wrapper">
+        <img className="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google logo"/>
+      </div>
+      <p className="btn-text">Sign in with Google</p>
+            </button>
+
         </div>
       </div>
     </div>
