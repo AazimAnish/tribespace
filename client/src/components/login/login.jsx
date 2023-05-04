@@ -1,14 +1,6 @@
 import React, { useState } from "react";
 import "./login.scss";
-import firebase from "firebase/app";
-import "firebase/auth";
 
-// Initialize Firebase with your project's configuration
-firebase.initializeApp({
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-});
 
 function LoginPage() {
   const [email, setEmail] = useState("");
@@ -20,22 +12,6 @@ function LoginPage() {
 
   const handlePasswordChange = (event) => {
     setPassword(event.target.value);
-  };
-
-  const handleGoogleLogin = () => {
-    // Create a new Google provider
-    const provider = new firebase.auth.GoogleAuthProvider();
-
-    // Sign in with Google
-    firebase.auth().signInWithPopup(provider)
-      .then((result) => {
-        // Handle successful sign-in
-        console.log("Google sign-in successful:", result);
-      })
-      .catch((error) => {
-        // Handle errors
-        console.error("Google sign-in error:", error);
-      });
   };
 
   return (
@@ -71,7 +47,7 @@ function LoginPage() {
         </form>
 
         {/* Google sign-in button */}
-        <button onClick={handleGoogleLogin}>
+        <button>
           <img src="/path/to/google-icon" alt="Google logo" />
           Sign up or Log in with Google
         </button>
