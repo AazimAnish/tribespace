@@ -10,7 +10,7 @@ import Home from "./pages/Home/Home";
 import Product from "./pages/Product/Product";
 import Products from "./pages/Products/Products";
 import LoginPage from "./components/login/login";
-
+import Crowdfund from "./pages/crowdfund/crowdfund";
 import "./app.scss";
 const Layout = () =>{
   return (
@@ -42,6 +42,10 @@ const router = createBrowserRouter([
       {
         path:"/login.jsx",
         element:<LoginPage/>
+      },
+      {
+        path:"/crowdfund.jsx",
+        element:<Crowdfund/>
       }
     ],
   },
