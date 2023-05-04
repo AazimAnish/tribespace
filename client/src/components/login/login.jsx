@@ -18,7 +18,7 @@ function LoginPage() {
     <div className="login-page">
       {/* image section */}
       <div className="image-section">
-        <img src="/path/to/image" alt="Login page" />
+        <img src="https://ajirakhabar.com/wp-content/uploads/2018/03/tribal-products.jpg" alt="Login page" />
       </div>
 
       {/* sign-up and login form section */}
@@ -45,12 +45,19 @@ function LoginPage() {
 
           <button type="submit">Sign up or Log in</button>
         </form>
-
+        <br></br>
         {/* Google sign-in button */}
-        <button>
-          <img src="/path/to/google-icon" alt="Google logo" />
-          Sign up or Log in with Google
+        <div className="google-btn">
+          
+          <div className="google-icon-wrapper">
+          <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+          </div>
+          <button onClick={handleGoogleLogin}>
+          <p className="btn-text">
+          Sign in with Google
+            </p>
         </button>
+        </div>
       </div>
     </div>
   );

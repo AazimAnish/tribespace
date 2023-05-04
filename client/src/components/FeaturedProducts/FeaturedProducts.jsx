@@ -8,7 +8,7 @@ const FeaturedProducts = ({type}) => {
     const data = [
         {
             id:1,
-            img:jwelleryImg,
+            img:"https://images.pexels.com/photos/1972115/pexels-photo-1972115.jpeg?auto=compresss&cs=tinysrgb&w=1600",
             img2:"https://arteastri.com/cdn/shop/products/j8_2_1fbac654-70e7-495f-8065-a82cbd24b54f_1024x1024@2x.jpg?v=1673708934",
             title: "Handmade Bamboo Jwellery Set",
             isNew:true,
