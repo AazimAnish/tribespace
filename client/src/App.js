@@ -9,6 +9,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import Product from "./pages/Product/Product";
 import Products from "./pages/Products/Products";
+import LoginPage from "./components/login/login";
+
 import "./app.scss";
 const Layout = () =>{
   return (
@@ -37,6 +39,10 @@ const router = createBrowserRouter([
         path:"/product/:id",
         element:<Product/>,
       },
+      {
+        path:"/login.jsx",
+        element:<LoginPage/>
+      }
     ],
   },
 
