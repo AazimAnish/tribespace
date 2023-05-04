@@ -1,5 +1,14 @@
 import React, { useState } from "react";
 import "./login.scss";
+import firebase from "firebase/app";
+import "firebase/auth";
+
+// Initialize Firebase with your project's configuration
+firebase.initializeApp({
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+});
 
 function LoginPage() {
   const [email, setEmail] = useState("");
@@ -14,7 +23,19 @@ function LoginPage() {
   };
 
   const handleGoogleLogin = () => {
-    // handle Google sign-in logic here
+    // Create a new Google provider
+    const provider = new firebase.auth.GoogleAuthProvider();
+
+    // Sign in with Google
+    firebase.auth().signInWithPopup(provider)
+      .then((result) => {
+        // Handle successful sign-in
+        console.log("Google sign-in successful:", result);
+      })
+      .catch((error) => {
+        // Handle errors
+        console.error("Google sign-in error:", error);
+      });
   };
 
   return (
