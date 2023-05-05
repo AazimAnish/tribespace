@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "@thirdweb-dev/react": "^3.11.9",
+    "@thirdweb-dev/sdk": "^3.10.12",
+    "ethers": "^5.7.2",
     "hardhat": "^2.14.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2"
   }
 }
