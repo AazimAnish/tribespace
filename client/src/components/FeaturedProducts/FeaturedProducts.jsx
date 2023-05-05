@@ -1,15 +1,13 @@
 import React from 'react'
 import "./FeaturedProducts.scss"
 import Card from "../Card/Card";
-import jwelleryImg from '../../assets/images/product_img/jwellery.webp';
-
-
+import image1 from './janos-venczak.jpg'
+import bangles from '../../assets/images/product_img/wooden_horse.jpg'
 const FeaturedProducts = ({type}) => {
     const data = [
         {
             id:1,
-            img:"https://images.pexels.com/photos/1972115/pexels-photo-1972115.jpeg?auto=compresss&cs=tinysrgb&w=1600",
-            img2:"https://arteastri.com/cdn/shop/products/j8_2_1fbac654-70e7-495f-8065-a82cbd24b54f_1024x1024@2x.jpg?v=1673708934",
+            img:image1,
             title: "Handmade Bamboo Jwellery Set",
             isNew:true,
             oldPrice:19,
@@ -17,7 +15,7 @@ const FeaturedProducts = ({type}) => {
         },
         {
             id:2,
-            img:"https://s3.amazonaws.com/megastores-prod-bucket/images/product-images/CO-Handicrafts_&_Fashion/SE-Jewellery/CA-Bangles/CMSA-ZSH8-7VAI-B020/real-images/Dokra%20Art%20Adjustable%20Handcrafted%20Tribal%20Bangle%20001%20by%20Arteastic1651830242100.jpg",
+            img:bangles,
             title:"Bangles",
             isNew:true,
             oldPrice:19,
