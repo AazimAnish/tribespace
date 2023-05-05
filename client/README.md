@@ -1,84 +1,70 @@
-# Tribe space - Where we seek our roots.
+# Getting Started with Create React App
 
-![Tribe space](https://github.com/AazimAnish/tribespace/blob/v2/logo/1x/Artboard%2015.jpg)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
+In the project directory, you can run:
 
-<p align="center">
-  <img src= "https://img.shields.io/github/downloads/GameGodS3/DropPoint/total?style=flat-square">
-  <img src= "https://img.shields.io/github/v/release/GameGodS3/DropPoint?style=flat-square">
-  <img src= "https://img.shields.io/github/license/GameGodS3/DropPoint?style=flat-square">
-  <img src= "https://img.shields.io/github/workflow/status/GameGodS3/DropPoint/Build?style=flat-square">
-  <img src= "https://img.shields.io/github/repo-size/GameGodS3/DropPoint?color=yellow&style=flat-square">
-</p>
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Where we seek our roots.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Tribe space helps tribes to be uplifted amoung the communities.
+### `npm test`
 
-Build with "BLOCKCHAIN" which makes a transparent and secured fund transactions.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Table of Contents
-- [:sparkles: Demo](#sparkles-demo)
-  * [Across maximized windows in the same desktop](#across-maximized-windows-in-the-same-desktop)
-  * [Across windows in different virtual desktops/workspaces](#across-windows-in-different-virtual-desktopsworkspaces)
-- [:package: How to Install (Normal Installation)](#package-how-to-install-normal-installation)
-- [:v: Usage](#v-usage)
-- [:gear: Developer Installation](#gear-developer-installation)
-- [:star: Contribution](#star-contribution)
+### `npm run build`
 
-## :sparkles: Demo
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Across maximized windows in the same desktop
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-![Drag between windows](https://i.imgur.com/QkUPoOb.gif)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Across windows in different virtual desktops/workspaces
+### `npm run eject`
 
-![Drag between desktops](https://i.imgur.com/WElktc0.gif)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## :package: How to Install (Normal Installation)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Go to the [Releases Page](https://github.com/GameGodS3/DropPoint/releases) to download the latest releases
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- Windows
-  - Download `DropPoint-1.x.x-win.zip` from Releases and extract to a blank folder. Run `DropPoint.exe`.
-  - To enable stickyness across Virtual Desktops (Windows) go to Task view while DropPoint is running, right click it and tick **"Show Window from this app on all Desktops"**. Stickyness in other Operating Systems works by default.
-- Mac
-  - Download `DropPoint-1.x.x-intel.dmg` or `DropPoint-1.x.x-arm64-Apple-Silicon.dmg`(for Apple M1 Devices only) from Releases and install. Open "System Preferences > Security & Privacy > Open Anyway"
-- Linux
-  - All Linux Distros: Download `DropPoint-1.x.x.AppImage` to run.
-  - Debian-based Distros (Ubuntu, Mint, PopOs, etc): Download `droppoint_1.x.x_amd64.deb`.
-  - Arch-based Distros (Manjaro, Arch, etc.): Download `droppoint-1.x.x.tar.gz`
-  - RHEL-based Distros (Fedora, Red Hat, etc): Download `droppoint-1.x.x.x86_64.rpm`.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## :v: Usage
+## Learn More
 
-- Drag and drop any file(s) or folder from the system into DropPoint, go to your desired location and drag it out.
-- App minimises to tray by default when you close the instance. To open instance, click on system tray. To quit, right click on tray icon > Quit.
-- While DropPoint is in the system tray, pressing <kbd>Shift</kbd> + <kbd>Caps Lock</kbd> anywhere in your PC would create a new instance of DropPoint, at mouse location. (as tested on Windows and Linux) (the shortcut is <kbd>Shift</kbd> + <kbd>Tab</kbd> on MacOs)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## :gear: Developer Installation
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-**You must have NPM and Git installed in your PC**
+### Code Splitting
 
-1. Clone repo and change into directory
-   ```bash
-   git clone --branch v2 https://github.com/AazimAnish/tribespace.git
-   cd tribespace/client
-   ```
-2. Install dependencies and run
-   ```bash
-    npm install
-    npm start
-   ```
-## :star: Contribution
-Contributions are welcome 😃. 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Please do refer to our [Contributing Guidelines](https://github.com/GameGodS3/DropPoint/blob/main/docs/CONTRIBUTING.md) and [Pull Request Templates](https://github.com/GameGodS3/DropPoint/blob/main/docs/PULL_REQUEST_TEMPLATE.md) before making a Pull Request.
+### Analyzing the Bundle Size
 
-## Tech stacks used:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
