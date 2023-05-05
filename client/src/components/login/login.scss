@@ -107,5 +107,11 @@
       background: $button-active-blue;
     }
   }
+
+  .login-container{
+    width: auto;
+    max-width: 500px;
+  margin: 0 auto;
+  }
   
   @import url(https://fonts.googleapis.com/css?family=Roboto:500);
