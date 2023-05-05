@@ -8,7 +8,7 @@ const Categories = () => {
       <div className="col">
         <div className="row">
           <img
-            src="https://devdiscourse.blob.core.windows.net/devnews/27_06_2019_18_31_55_7984236.jpg"
+            src="https://images.pexels.com/photos/818992/pexels-photo-818992.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt=""
           />
           <button>
@@ -19,12 +19,12 @@ const Categories = () => {
         </div>
         <div className="row">
           <img
-            src="https://www.pondylive.com/wp-content/uploads/2019/03/Fotor_155153963465516-1170x694.jpeg"
+            src="https://images.pexels.com/photos/2036646/pexels-photo-2036646.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt=""
           />
           <button>
             <Link to="/products/1" className="link">
-              Lamps
+              Women
             </Link>
           </button>
         </div>
@@ -33,12 +33,12 @@ const Categories = () => {
         <div className="row">
           {" "}
           <img
-            src="https://www.artzolo.com/sites/default/files/uploads/multi/1516/largest/HOME%20DECOR_3.jpg"
+            src="https://images.pexels.com/photos/1813947/pexels-photo-1813947.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt=""
           />
           <button>
             <Link to="/products/1" className="link">
-              New Vessels
+              New Season
             </Link>
           </button>
         </div>
@@ -48,12 +48,12 @@ const Categories = () => {
           <div className="col">
             <div className="row">
               <img
-                src="https://i.pinimg.com/236x/ba/86/19/ba8619d58ba31628f24040a0462c2343--coconut-products-tahiti-french-polynesia.jpg"
+                src="https://images.pexels.com/photos/1192609/pexels-photo-1192609.jpeg?auto=compress&cs=tinysrgb&w=1600"
                 alt=""
               />
               <button>
                 <Link to="/products/1" className="link">
-                  Coconut Crafts
+                  Men
                 </Link>
               </button>
             </div>
@@ -62,12 +62,12 @@ const Categories = () => {
             <div className="row">
               {" "}
               <img
-                src="https://www.designdekko.com/uploads/blog/1630900039-jeanvellakNsAF3gcyeYunsplash.jpg"
+                src="https://images.pexels.com/photos/2703202/pexels-photo-2703202.jpeg?auto=compress&cs=tinysrgb&w=1600"
                 alt=""
               />
               <button>
                 <Link to="/products/1" className="link">
-                  Clothing
+                  Accessories
                 </Link>
               </button>
             </div>
@@ -75,12 +75,12 @@ const Categories = () => {
         </div>
         <div className="row">
           <img
-            src="https://images.yourstory.com/cs/5/98c65090592f11ea9f62339ce853ca75/Imagebocw-1589887995087.jpg"
+            src="https://images.pexels.com/photos/1159670/pexels-photo-1159670.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt=""
           />
           <button>
             <Link to="/products/1" className="link">
-              Lanterns
+              Shoes
             </Link>
           </button>
         </div>

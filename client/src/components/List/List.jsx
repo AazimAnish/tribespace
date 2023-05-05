@@ -22,7 +22,7 @@ const List = () => {
         },
         {
             id: 2,
-            img:"https://www.mastergardenproducts.com/solidbamboochair.jpg",
+            img:"",
             title:"Junglee Chair",
             isNew:true,
             oldPrice:19,

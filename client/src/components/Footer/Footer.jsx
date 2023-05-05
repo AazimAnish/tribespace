@@ -14,19 +14,19 @@ const Footer = () =>{
                 <div className="item">
                     <h1>About</h1>
                     <span>
-                    Our website is dedicated to providing an immersive shopping experience for customers who are interested in unique, handcrafted tribal products. Our mission is to connect artisans from indigenous communities with buyers who appreciate the beauty and craftsmanship of their products.
+                        We sell tribal products.
                     </span>
                 </div>
                 <div className="item">
                     <h1>Contact</h1>
                     <span>
-                        Mail us at tribespace@gmail.com
+                        Mail us at tribalary@gmail.com
                     </span>
                 </div>
             </div>
             <div className="bottom">
                 <div className="left">
-                    <span className="logo"><img src="/img/Artboard.png" height="80px" width="200px" alt="" /></span>
+                    <span className="logo">TribalSpace</span>
                     <span className="copyright">
                         Copyright 2023. All Rights Reserved
                     </span>

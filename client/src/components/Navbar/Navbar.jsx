@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="wrapper">
         <div className="left">
           <div className="item">
-            <img src="/img/Artboard.png" height="100px" width="200px" alt="" />
+            <img src="/img/artlogo.png" height="100px" width="200px" alt="" />
           </div>
         </div>
         
