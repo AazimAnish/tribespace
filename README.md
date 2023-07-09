@@ -2,8 +2,6 @@
 
 ![Tribe space](https://github.com/AazimAnish/tribespace/blob/v2/logo/1x/Artboard%2015.jpg)
 
-
-
 Where we seek our roots.
 
 Tribe space helps tribes to be uplifted amoung the communities.
